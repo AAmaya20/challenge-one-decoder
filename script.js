@@ -9,8 +9,10 @@ function cleanMessage() {
     message.value = ""
 }
 function copyMessage() {
+    let cpyMsg = document.getElementById("decMsg")
+    navigator.clipboard.writeText(cpyMsg.textContent)
     alert("Mensaje copiado :)")
-    decMsg.replaceChildren("Aun no hay ningun texto crifrado o descifrado.")
+    decMsg.replaceChildren("Aun no hay ningun texto.")
 }
 function encodeMessage(){
     if(message.value != ""){
@@ -74,6 +76,9 @@ function decodeMessage() {
         }
         let msg = arrayMessage.join("")
         decMsg.replaceChildren(msg)
+        cleanMessage()
+    }else{
+        alert("Tienes que escribir un mensaje.")
     }
 }
 
