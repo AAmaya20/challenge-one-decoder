@@ -16,7 +16,6 @@ function copyMessage() {
 }
 function encodeMessage(){
     if(message.value != ""){
-        console.log(message.value)
         tempDecodeMessage = message.value.toLowerCase()
         console.log(tempDecodeMessage)
         let arrayMessage = tempDecodeMessage.split("")
