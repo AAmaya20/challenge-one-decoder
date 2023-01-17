@@ -2,7 +2,7 @@
 
 Hola a todos. Este es el primer Challenge de Alura latam y aqui pueden visualizar mi proceso de desarrollo.
 
-Use una paleta de colores inspirada en Miles Morales; nada mejor que reunir tu motivación en un proyecto.
+Use una paleta de colores inspirada en Miles Morales; nada mejor que unir tu motivación y aquello que te apasiona en un proyecto.
 
 Tecnologías usadas:
 
