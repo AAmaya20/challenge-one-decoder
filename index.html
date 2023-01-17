@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spidy | Encriptador</title>
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="stylesheet" href="/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1><img class="logo" src="/images/logo.svg" alt="logo spiderman"></h1>
+            </div>
+        </header>
+        <main>
+            <div class="esc">
+                <div class="input-message">
+                    <textarea id="message" placeholder="Escribe aqui tu mensaje..."></textarea>
+                    <div class="buttons">
+                        <input id="encode" type="submit" value="Codificar">
+                        <input id="decode" type="submit" value="Decodificar">
+                    </div>
+                </div>
+                <div class="output-message">
+                    <div id="outMsg">
+                        <div id="paragMes">
+                            <p id="decMsg">Aun no hay ningun texto crifrado o descifrado.</p>
+                        </div>
+                        <div id="btnSubmit">
+                            <input id="copy" type="submit" value="Copiar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <h1><img class="logo" src="/images/logo.svg" alt="logo spiderman"></h1>
+            </div>
+        </footer>
+    </body>
+    <script src="/script.js"></script>
+</html>

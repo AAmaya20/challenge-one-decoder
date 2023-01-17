@@ -1,0 +1,157 @@
+body{
+    background: #242426;
+}
+header{
+    width: 100%;
+    background: #731212;
+    padding: 20px 0;
+    box-shadow: 2px 2px 5px 1px black;
+}
+h1{
+    text-align: center;
+}
+.logo{
+    width: 3em;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+.esc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 25px;
+}
+.input-message{
+    width: 70%;
+}
+#message{
+    font-family: 'Montserrat', sans-serif;
+    color: #f2f2f2;
+    background: #242426;
+    width: 100%;
+    height: 400px;
+    font-size: 17px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+#message::-webkit-input-placeholder{
+    color: #f2f2f2;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+    margin-top: 40px;
+    gap: 25px;
+}
+.buttons input{
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    padding: 10px 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+#encode{
+    background: #0D0D0D;
+    color: #f2f2f2;
+}
+#decode{
+    background: #f2f2f2;
+    color: #0D0D0D;
+}
+.output-message{
+    width: 30%;
+}
+#outMsg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f2f2;
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 6px 1px #0D0D0D;
+}
+#paragMes{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    word-break: break-all;
+}
+#decMsg{
+    margin-top: 25px;
+    font-size: 17px;
+}
+#btnSubmit{
+    width: 80%;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#copy{
+    font-family: 'Montserrat', sans-serif;
+    width: 30%;
+    padding: 10px 5px;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+footer{
+    box-shadow: -5px -5px -5px 1px #0D0D0D;
+    background: #8C1F28;
+    padding: 1em;
+}
+@media screen and (min-width:557px) and (max-width:996px){
+    .esc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-message{
+        width: 100%;
+    }
+    .output-message{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    #outMsg{
+        height: 300px;
+    }
+}
+@media screen and (max-width:556px){
+    main{
+        margin: 3em 0;
+    }
+    .esc{
+        flex-direction: column;
+    }
+    .input-message{
+        width: 100%;
+    }
+    .buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons input{
+        width: 80%;
+    }
+    .output-message{
+        width: 100%;
+    }
+    #outMsg{
+        height: 200px;
+    }
+}
