@@ -81,7 +81,6 @@ function decodeMessage() {
         alert("Tienes que escribir un mensaje.")
     }
 }
-
 copy.onclick = copyMessage
 message.onfocus = cleanMessage
 encode.onclick = encodeMessage
